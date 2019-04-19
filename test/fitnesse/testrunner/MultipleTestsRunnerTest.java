@@ -88,7 +88,7 @@ public class MultipleTestsRunnerTest {
     }
   }
 
-  static interface ClosableTestSystemListener extends TestSystemListener, Closeable {
+  public static interface ClosableTestSystemListener extends TestSystemListener, Closeable {
   }
 
 }
